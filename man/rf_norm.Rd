@@ -7,7 +7,7 @@
 rf_norm(peak, groups, metabolites)
 }
 \arguments{
-\item{peak}{the table of peak values}
+\item{peak}{the table of peak values, each column represents a sample, and each row represents a metabolite}
 
 \item{groups}{the vector of groups}
 

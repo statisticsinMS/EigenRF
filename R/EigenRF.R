@@ -3,7 +3,7 @@ library(randomForest)
 
 #' Title Metabolites Normalization Method:Eigen_RF
 #'
-#' @param peak the table of peak values
+#' @param peak the table of peak values, each column represents a sample, and each row represents a metabolite
 #' @param groups the vector of groups
 #' @param metabolites the table or vector of metabolites
 #'
