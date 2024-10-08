@@ -16,9 +16,14 @@ To use the EigenRF normalization method, simply load the library and apply the E
 
 library(EigenRF)
 
-peak <- your_peak_data # Your peak table (e.g., a data frame with peak intensities)
-groups <- your_group_data # Your group vector (e.g., a factor indicating the group of each sample)
-metabolites <- your_metabolites_data # Your metabolites table or vector
+# Your peak table (e.g., a data frame with peak intensities)
+peak <- your_peak_data
+
+# Your group vector (e.g., a factor indicating the group of each sample)
+groups <- your_group_data
+
+# Your metabolites table or vector
+metabolites <- your_metabolites_data
 
 # Apply the Eigen_RF normalization
 normalized_data <- Eigen_RF(peak, groups, metabolites)
